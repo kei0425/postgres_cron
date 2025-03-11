@@ -35,4 +35,4 @@ jobs:
           context: .  # ビルドコンテキスト（通常はリポジトリルート）
           file: ./Dockerfile  # Dockerfileのパス
           push: true  # Docker Hubにプッシュする
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-image:latest  # イメージ名とタグ
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/postgres_cron:16.3  # イメージ名とタグ
